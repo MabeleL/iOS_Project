@@ -1,0 +1,6 @@
+framework module Pods_BriqUITests {
+  umbrella header "Pods-BriqUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
