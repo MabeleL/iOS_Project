@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E5BA021E96EE8F00CB4391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA011E96EE8F00CB4391 /* AppDelegate.swift */; };
+		18E5BA041E96EE8F00CB4391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA031E96EE8F00CB4391 /* ViewController.swift */; };
+		18E5BA071E96EE9000CB4391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E5BA051E96EE9000CB4391 /* Main.storyboard */; };
+		18E5BA0A1E96EE9000CB4391 /* Briq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA081E96EE9000CB4391 /* Briq.xcdatamodeld */; };
+		18E5BA0C1E96EE9000CB4391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E5BA0B1E96EE9000CB4391 /* Assets.xcassets */; };
+		18E5BA0F1E96EE9000CB4391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E5BA0D1E96EE9000CB4391 /* LaunchScreen.storyboard */; };
+		18E5BA1A1E96EE9000CB4391 /* BriqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA191E96EE9000CB4391 /* BriqTests.swift */; };
+		18E5BA251E96EE9000CB4391 /* BriqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA241E96EE9000CB4391 /* BriqUITests.swift */; };
+		18E5BA361E96F0E300CB4391 /* checkconnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA331E96F0E300CB4391 /* checkconnection.swift */; };
+		18E5BA371E96F0E300CB4391 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA341E96F0E300CB4391 /* Constants.swift */; };
+		18E5BA381E96F0E300CB4391 /* LoadingBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA351E96F0E300CB4391 /* LoadingBarViewController.swift */; };
+		18E5BA3A1E96F53200CB4391 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA391E96F53200CB4391 /* SplashScreenViewController.swift */; };
+		18E5BA3C1E96F53C00CB4391 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA3B1E96F53C00CB4391 /* SignInViewController.swift */; };
+		18E5BA3E1E96F54500CB4391 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA3D1E96F54500CB4391 /* SignUpViewController.swift */; };
+		18E5BA401E96F55000CB4391 /* FarmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA3F1E96F55000CB4391 /* FarmerViewController.swift */; };
+		18E5BA441E96F56900CB4391 /* FarmerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA431E96F56900CB4391 /* FarmerDetailsViewController.swift */; };
+		18E5BA461E96FB7800CB4391 /* FarmerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA451E96FB7800CB4391 /* FarmerTableViewCell.swift */; };
+		18E5BA851E97946A00CB4391 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA841E97946A00CB4391 /* LogoutViewController.swift */; };
+		45701CF0291AC32C19E60519 /* Pods_Briq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC576259740DDEC8475A48F0 /* Pods_Briq.framework */; };
+		7E737FD9A528B482D98953BE /* Pods_BriqUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736A525A923D26EE5C8D8FE9 /* Pods_BriqUITests.framework */; };
+		DA18CBA9060F09962BB826BD /* Pods_BriqTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A693AB454F51638DC481328 /* Pods_BriqTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E5BA161E96EE9000CB4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E5B9F61E96EE8F00CB4391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E5B9FD1E96EE8F00CB4391;
+			remoteInfo = Briq;
+		};
+		18E5BA211E96EE9000CB4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E5B9F61E96EE8F00CB4391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E5B9FD1E96EE8F00CB4391;
+			remoteInfo = Briq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1243C515C93D10F43F166F2E /* Pods-BriqTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BriqTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BriqTests/Pods-BriqTests.release.xcconfig"; sourceTree = "<group>"; };
+		18E5B9FE1E96EE8F00CB4391 /* Briq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Briq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5BA011E96EE8F00CB4391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E5BA031E96EE8F00CB4391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E5BA061E96EE9000CB4391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E5BA091E96EE9000CB4391 /* Briq.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Briq.xcdatamodel; sourceTree = "<group>"; };
+		18E5BA0B1E96EE9000CB4391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E5BA0E1E96EE9000CB4391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E5BA101E96EE9000CB4391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5BA151E96EE9000CB4391 /* BriqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BriqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5BA191E96EE9000CB4391 /* BriqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriqTests.swift; sourceTree = "<group>"; };
+		18E5BA1B1E96EE9000CB4391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5BA201E96EE9000CB4391 /* BriqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BriqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5BA241E96EE9000CB4391 /* BriqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriqUITests.swift; sourceTree = "<group>"; };
+		18E5BA261E96EE9000CB4391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5BA331E96F0E300CB4391 /* checkconnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkconnection.swift; sourceTree = "<group>"; };
+		18E5BA341E96F0E300CB4391 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18E5BA351E96F0E300CB4391 /* LoadingBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBarViewController.swift; sourceTree = "<group>"; };
+		18E5BA391E96F53200CB4391 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		18E5BA3B1E96F53C00CB4391 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		18E5BA3D1E96F54500CB4391 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18E5BA3F1E96F55000CB4391 /* FarmerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FarmerViewController.swift; sourceTree = "<group>"; };
+		18E5BA431E96F56900CB4391 /* FarmerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FarmerDetailsViewController.swift; sourceTree = "<group>"; };
+		18E5BA451E96FB7800CB4391 /* FarmerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FarmerTableViewCell.swift; sourceTree = "<group>"; };
+		18E5BA841E97946A00CB4391 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		1A693AB454F51638DC481328 /* Pods_BriqTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BriqTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5958255D7B44711D0A164691 /* Pods-BriqUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BriqUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BriqUITests/Pods-BriqUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		736A525A923D26EE5C8D8FE9 /* Pods_BriqUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BriqUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968FEA3429511AF3C940D8A0 /* Pods-Briq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Briq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Briq/Pods-Briq.release.xcconfig"; sourceTree = "<group>"; };
+		AB970CC522AB1154E0818036 /* Pods-Briq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Briq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Briq/Pods-Briq.debug.xcconfig"; sourceTree = "<group>"; };
+		AC576259740DDEC8475A48F0 /* Pods_Briq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Briq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE027EFDAF3961F6B354EC8 /* Pods-BriqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BriqTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BriqTests/Pods-BriqTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CE9A4F2F1B59C82B2F733F /* Pods-BriqUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BriqUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BriqUITests/Pods-BriqUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E5B9FB1E96EE8F00CB4391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45701CF0291AC32C19E60519 /* Pods_Briq.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA121E96EE9000CB4391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA18CBA9060F09962BB826BD /* Pods_BriqTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA1D1E96EE9000CB4391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E737FD9A528B482D98953BE /* Pods_BriqUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E5B9F51E96EE8F00CB4391 = {
+			isa = PBXGroup;
+			children = (
+				18E5BA001E96EE8F00CB4391 /* Briq */,
+				18E5BA181E96EE9000CB4391 /* BriqTests */,
+				18E5BA231E96EE9000CB4391 /* BriqUITests */,
+				18E5B9FF1E96EE8F00CB4391 /* Products */,
+				FDC63C7AE8CCC069F36B372B /* Pods */,
+				2D54A4358E69EA7AF882A63F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E5B9FF1E96EE8F00CB4391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E5B9FE1E96EE8F00CB4391 /* Briq.app */,
+				18E5BA151E96EE9000CB4391 /* BriqTests.xctest */,
+				18E5BA201E96EE9000CB4391 /* BriqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E5BA001E96EE8F00CB4391 /* Briq */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA321E96F0C700CB4391 /* Util */,
+				18E5BA011E96EE8F00CB4391 /* AppDelegate.swift */,
+				18E5BA031E96EE8F00CB4391 /* ViewController.swift */,
+				18E5BA051E96EE9000CB4391 /* Main.storyboard */,
+				18E5BA0B1E96EE9000CB4391 /* Assets.xcassets */,
+				18E5BA0D1E96EE9000CB4391 /* LaunchScreen.storyboard */,
+				18E5BA101E96EE9000CB4391 /* Info.plist */,
+				18E5BA081E96EE9000CB4391 /* Briq.xcdatamodeld */,
+				18E5BA391E96F53200CB4391 /* SplashScreenViewController.swift */,
+				18E5BA3B1E96F53C00CB4391 /* SignInViewController.swift */,
+				18E5BA3D1E96F54500CB4391 /* SignUpViewController.swift */,
+				18E5BA3F1E96F55000CB4391 /* FarmerViewController.swift */,
+				18E5BA431E96F56900CB4391 /* FarmerDetailsViewController.swift */,
+				18E5BA841E97946A00CB4391 /* LogoutViewController.swift */,
+			);
+			path = Briq;
+			sourceTree = "<group>";
+		};
+		18E5BA181E96EE9000CB4391 /* BriqTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA191E96EE9000CB4391 /* BriqTests.swift */,
+				18E5BA1B1E96EE9000CB4391 /* Info.plist */,
+			);
+			path = BriqTests;
+			sourceTree = "<group>";
+		};
+		18E5BA231E96EE9000CB4391 /* BriqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA241E96EE9000CB4391 /* BriqUITests.swift */,
+				18E5BA261E96EE9000CB4391 /* Info.plist */,
+			);
+			path = BriqUITests;
+			sourceTree = "<group>";
+		};
+		18E5BA321E96F0C700CB4391 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA331E96F0E300CB4391 /* checkconnection.swift */,
+				18E5BA341E96F0E300CB4391 /* Constants.swift */,
+				18E5BA351E96F0E300CB4391 /* LoadingBarViewController.swift */,
+				18E5BA451E96FB7800CB4391 /* FarmerTableViewCell.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2D54A4358E69EA7AF882A63F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC576259740DDEC8475A48F0 /* Pods_Briq.framework */,
+				1A693AB454F51638DC481328 /* Pods_BriqTests.framework */,
+				736A525A923D26EE5C8D8FE9 /* Pods_BriqUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDC63C7AE8CCC069F36B372B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB970CC522AB1154E0818036 /* Pods-Briq.debug.xcconfig */,
+				968FEA3429511AF3C940D8A0 /* Pods-Briq.release.xcconfig */,
+				AFE027EFDAF3961F6B354EC8 /* Pods-BriqTests.debug.xcconfig */,
+				1243C515C93D10F43F166F2E /* Pods-BriqTests.release.xcconfig */,
+				5958255D7B44711D0A164691 /* Pods-BriqUITests.debug.xcconfig */,
+				C8CE9A4F2F1B59C82B2F733F /* Pods-BriqUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E5B9FD1E96EE8F00CB4391 /* Briq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5BA291E96EE9000CB4391 /* Build configuration list for PBXNativeTarget "Briq" */;
+			buildPhases = (
+				C2DCED45043A4235BA28CAE2 /* [CP] Check Pods Manifest.lock */,
+				18E5B9FA1E96EE8F00CB4391 /* Sources */,
+				18E5B9FB1E96EE8F00CB4391 /* Frameworks */,
+				18E5B9FC1E96EE8F00CB4391 /* Resources */,
+				1358950FF1299267BA6CE5CA /* [CP] Embed Pods Frameworks */,
+				9FF6AD1B9CB8DA8AD0D43C69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Briq;
+			productName = Briq;
+			productReference = 18E5B9FE1E96EE8F00CB4391 /* Briq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E5BA141E96EE9000CB4391 /* BriqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5BA2C1E96EE9000CB4391 /* Build configuration list for PBXNativeTarget "BriqTests" */;
+			buildPhases = (
+				9A9D056B9E52DBD26454B6BA /* [CP] Check Pods Manifest.lock */,
+				18E5BA111E96EE9000CB4391 /* Sources */,
+				18E5BA121E96EE9000CB4391 /* Frameworks */,
+				18E5BA131E96EE9000CB4391 /* Resources */,
+				6DB92E1268280D2FC3D190D7 /* [CP] Embed Pods Frameworks */,
+				681F4E5E1EB0618D322819F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E5BA171E96EE9000CB4391 /* PBXTargetDependency */,
+			);
+			name = BriqTests;
+			productName = BriqTests;
+			productReference = 18E5BA151E96EE9000CB4391 /* BriqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E5BA1F1E96EE9000CB4391 /* BriqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5BA2F1E96EE9000CB4391 /* Build configuration list for PBXNativeTarget "BriqUITests" */;
+			buildPhases = (
+				7E315BF7A6C299B9DA245957 /* [CP] Check Pods Manifest.lock */,
+				18E5BA1C1E96EE9000CB4391 /* Sources */,
+				18E5BA1D1E96EE9000CB4391 /* Frameworks */,
+				18E5BA1E1E96EE9000CB4391 /* Resources */,
+				524DF089169649B28AE0EC79 /* [CP] Embed Pods Frameworks */,
+				5A56A8383170E1C7FFC5C9D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E5BA221E96EE9000CB4391 /* PBXTargetDependency */,
+			);
+			name = BriqUITests;
+			productName = BriqUITests;
+			productReference = 18E5BA201E96EE9000CB4391 /* BriqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E5B9F61E96EE8F00CB4391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Strathmore;
+				TargetAttributes = {
+					18E5B9FD1E96EE8F00CB4391 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2VFXKQD36;
+						ProvisioningStyle = Automatic;
+					};
+					18E5BA141E96EE9000CB4391 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2VFXKQD36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E5B9FD1E96EE8F00CB4391;
+					};
+					18E5BA1F1E96EE9000CB4391 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2VFXKQD36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E5B9FD1E96EE8F00CB4391;
+					};
+				};
+			};
+			buildConfigurationList = 18E5B9F91E96EE8F00CB4391 /* Build configuration list for PBXProject "Briq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E5B9F51E96EE8F00CB4391;
+			productRefGroup = 18E5B9FF1E96EE8F00CB4391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E5B9FD1E96EE8F00CB4391 /* Briq */,
+				18E5BA141E96EE9000CB4391 /* BriqTests */,
+				18E5BA1F1E96EE9000CB4391 /* BriqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E5B9FC1E96EE8F00CB4391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA0F1E96EE9000CB4391 /* LaunchScreen.storyboard in Resources */,
+				18E5BA0C1E96EE9000CB4391 /* Assets.xcassets in Resources */,
+				18E5BA071E96EE9000CB4391 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA131E96EE9000CB4391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA1E1E96EE9000CB4391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1358950FF1299267BA6CE5CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Briq/Pods-Briq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		524DF089169649B28AE0EC79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BriqUITests/Pods-BriqUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A56A8383170E1C7FFC5C9D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BriqUITests/Pods-BriqUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		681F4E5E1EB0618D322819F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BriqTests/Pods-BriqTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB92E1268280D2FC3D190D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BriqTests/Pods-BriqTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E315BF7A6C299B9DA245957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A9D056B9E52DBD26454B6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF6AD1B9CB8DA8AD0D43C69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Briq/Pods-Briq-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DCED45043A4235BA28CAE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E5B9FA1E96EE8F00CB4391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA371E96F0E300CB4391 /* Constants.swift in Sources */,
+				18E5BA041E96EE8F00CB4391 /* ViewController.swift in Sources */,
+				18E5BA3A1E96F53200CB4391 /* SplashScreenViewController.swift in Sources */,
+				18E5BA401E96F55000CB4391 /* FarmerViewController.swift in Sources */,
+				18E5BA0A1E96EE9000CB4391 /* Briq.xcdatamodeld in Sources */,
+				18E5BA3C1E96F53C00CB4391 /* SignInViewController.swift in Sources */,
+				18E5BA381E96F0E300CB4391 /* LoadingBarViewController.swift in Sources */,
+				18E5BA3E1E96F54500CB4391 /* SignUpViewController.swift in Sources */,
+				18E5BA461E96FB7800CB4391 /* FarmerTableViewCell.swift in Sources */,
+				18E5BA851E97946A00CB4391 /* LogoutViewController.swift in Sources */,
+				18E5BA361E96F0E300CB4391 /* checkconnection.swift in Sources */,
+				18E5BA441E96F56900CB4391 /* FarmerDetailsViewController.swift in Sources */,
+				18E5BA021E96EE8F00CB4391 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA111E96EE9000CB4391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA1A1E96EE9000CB4391 /* BriqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA1C1E96EE9000CB4391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA251E96EE9000CB4391 /* BriqUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E5BA171E96EE9000CB4391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E5B9FD1E96EE8F00CB4391 /* Briq */;
+			targetProxy = 18E5BA161E96EE9000CB4391 /* PBXContainerItemProxy */;
+		};
+		18E5BA221E96EE9000CB4391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E5B9FD1E96EE8F00CB4391 /* Briq */;
+			targetProxy = 18E5BA211E96EE9000CB4391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E5BA051E96EE9000CB4391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5BA061E96EE9000CB4391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E5BA0D1E96EE9000CB4391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5BA0E1E96EE9000CB4391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E5BA271E96EE9000CB4391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E5BA281E96EE9000CB4391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E5BA2A1E96EE9000CB4391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB970CC522AB1154E0818036 /* Pods-Briq.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = Briq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.Briq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18E5BA2B1E96EE9000CB4391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968FEA3429511AF3C940D8A0 /* Pods-Briq.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = Briq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.Briq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18E5BA2D1E96EE9000CB4391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE027EFDAF3961F6B354EC8 /* Pods-BriqTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = BriqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.BriqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Briq.app/Briq";
+			};
+			name = Debug;
+		};
+		18E5BA2E1E96EE9000CB4391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1243C515C93D10F43F166F2E /* Pods-BriqTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = BriqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.BriqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Briq.app/Briq";
+			};
+			name = Release;
+		};
+		18E5BA301E96EE9000CB4391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5958255D7B44711D0A164691 /* Pods-BriqUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = BriqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.BriqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Briq;
+			};
+			name = Debug;
+		};
+		18E5BA311E96EE9000CB4391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CE9A4F2F1B59C82B2F733F /* Pods-BriqUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = BriqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.BriqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Briq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E5B9F91E96EE8F00CB4391 /* Build configuration list for PBXProject "Briq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA271E96EE9000CB4391 /* Debug */,
+				18E5BA281E96EE9000CB4391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5BA291E96EE9000CB4391 /* Build configuration list for PBXNativeTarget "Briq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA2A1E96EE9000CB4391 /* Debug */,
+				18E5BA2B1E96EE9000CB4391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5BA2C1E96EE9000CB4391 /* Build configuration list for PBXNativeTarget "BriqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA2D1E96EE9000CB4391 /* Debug */,
+				18E5BA2E1E96EE9000CB4391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5BA2F1E96EE9000CB4391 /* Build configuration list for PBXNativeTarget "BriqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA301E96EE9000CB4391 /* Debug */,
+				18E5BA311E96EE9000CB4391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E5BA081E96EE9000CB4391 /* Briq.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E5BA091E96EE9000CB4391 /* Briq.xcdatamodel */,
+			);
+			currentVersion = 18E5BA091E96EE9000CB4391 /* Briq.xcdatamodel */;
+			path = Briq.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18E5B9F61E96EE8F00CB4391 /* Project object */;
+}
