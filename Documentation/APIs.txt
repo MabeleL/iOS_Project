@@ -1,0 +1,58 @@
+**********API Documentation************
+APIs are done in php.
+
+You call them from the app using a http GET request and response will be a json object/ array.
+
+Be sure to encode the variables before making the http request.
+
+Login - Request
+http://acknotech.co.ke/Briq/login.php?username=farmer1&password=12345
+
+Login - Responses
+{"response":"1"} - successful login for farmer
+{"response":"2"} - successful login for industry
+{"response":"0"} - failed login/ invalid details
+
+Register/signup - Request
+http://acknotech.co.ke/Briq/register.php?name=Industry1&phone=+254711123456&username=ind1&type=industry
+
+Register/signup -  Responses
+{"response":"1"} - successful registration
+{"response":"0"} - failed registration
+
+Save products API is as below:
+
+http://acknotech.co.ke/Briq/save_product.php?username=farmer2&weight=20&price=10000&location=Mada_Estate
+
+Response:
+
+{"response":"1"} - success
+{"response":"0"} - failed
+
+Ordering function is meant to just send the farmer an sms alert with details of the products the farmer has via the API below.
+
+Request:
+http://acknotech.co.ke/Briq/sms.php?phoneNumber=%2B254727399505&text=Hi_farmer1.I_d_like_your_products
+
+Response:
+{"response":"1"} - successful sent
+{"response":"0"} - failed sending
+
+The getfarmers API request.
+http://acknotech.co.ke/Briq/getfarmers.php
+
+Response is a json object array like so : 
+
+[{"name":"farmer1","phone":"+254727399505"},{"name":"lenny","phone":"718694198"}]
+
+It appears you registered industries only. All the records had the type "Industry" and not "Farmer" that's why they were not appearing.
+
+Get Products API call is as below:
+
+http://acknotech.co.ke/Briq/get_products.php?username=farmer1
+
+Response
+
+{"weight":"20","price":"1000","location":"Mada"}
+
+
